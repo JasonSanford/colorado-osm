@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "osm_id": "470151574", "name": "Cheyenne Mountain Zoo", "amenity": null, "address": null, "addr_city": null, "addr_housenumber": "4250 Cheyenne Mountain Zoo Road", "addr_street": "Cheyenne Mountain Zoo Road", "addr_state": null, "addr_postcode": "80906", "tourism": "zoo" }, "geometry": { "type": "Point", "coordinates": [ -104.8536514, 38.7712055 ] } },
+{ "type": "Feature", "properties": { "osm_id": "965153792", "name": null, "amenity": null, "address": null, "addr_city": null, "addr_housenumber": null, "addr_street": null, "addr_state": null, "addr_postcode": null, "tourism": "zoo" }, "geometry": { "type": "Point", "coordinates": [ -104.9494099, 39.750078 ] } },
+{ "type": "Feature", "properties": { "osm_id": "2050779865", "name": "Dog Park", "amenity": null, "address": null, "addr_city": null, "addr_housenumber": null, "addr_street": null, "addr_state": null, "addr_postcode": null, "tourism": "zoo" }, "geometry": { "type": "Point", "coordinates": [ -104.733025500000011, 39.4306633 ] } }
+]
+}

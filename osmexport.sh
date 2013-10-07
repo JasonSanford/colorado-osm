@@ -21,3 +21,6 @@ OSM_CONFIG_FILE=osmconf_base.ini ogr2ogr -f "GeoJSON" -where 'amenity="bicycle_r
 
 [ -f light_rail_stations.geojson ] && rm light_rail_stations.geojson
 OSM_CONFIG_FILE=osmconf_light_rail.ini ogr2ogr -f "GeoJSON" -where 'railway="station" and operator="RTD"' light_rail_stations.geojson colorado-latest.osm.pbf points
+
+[ -f zoos.geojson ] && rm zoos.geojson
+OSM_CONFIG_FILE=osmconf_zoos.ini ogr2ogr -f "GeoJSON" -where 'tourism="zoo"' zoos.geojson colorado-latest.osm.pbf points
