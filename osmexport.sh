@@ -12,3 +12,6 @@ OSM_CONFIG_FILE=osmconf.ini ogr2ogr -f "GeoJSON" -where 'highway="cycleway"' bik
 
 [ -f light_rail.geojson ] && rm light_rail.geojson
 OSM_CONFIG_FILE=osmconf.ini ogr2ogr -f "GeoJSON" -where 'railway="light_rail"' light_rail.geojson colorado-latest.osm.pbf lines
+
+[ -f cafes.geojson ] && rm cafes.geojson
+OSM_CONFIG_FILE=osmconf.ini ogr2ogr -f "GeoJSON" -where 'amenity="cafe"' cafes.geojson colorado-latest.osm.pbf points
